@@ -1,0 +1,29 @@
+{
+  "name": "hello-node-api",
+  "version": "1.0.0",
+  "description": "basic node api",
+  "main": "index.js",
+ "scripts": {
+  "start": "node index.js",
+  "test": "jest"
+}
+,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kurious-potassium/hello-node-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kurious-potassium/hello-node-api/issues"
+  },
+  "homepage": "https://github.com/kurious-potassium/hello-node-api#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.0"
+  }
+}
